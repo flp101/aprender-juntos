@@ -1,0 +1,83 @@
+body
+{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#barra
+{
+    margin-top: -10px;
+    width: 365px;
+}
+
+#input
+{
+    width: 325px;
+    height: 100px;
+    padding: 20px;
+    background-color: black;
+    color: #FBFBFB;
+    font-size: 4cap;
+    border: none;
+    text-align: right;
+}
+
+#teclado
+{
+    display: grid;
+    grid-template-columns: repeat(4, 5em);
+    gap: 15px;
+}
+
+button
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    background-color: #333333;
+    color: #FBFBFB;
+    font-size: 3cap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover
+{
+    cursor: pointer;
+    background-color: #626161;
+}
+
+/* OUTROS */
+.operor
+{
+    background-color: #F19A38;
+}
+
+.operor:hover
+{
+    background-color: #f1bd82;
+}
+
+.outros
+{
+    background-color: #A5A5A5;
+}
+
+.outros:hover
+{
+    background-color: #cccaca;
+}
+
+.zero
+{
+    width: 175px;
+    border-radius: 40px;
+}
+
+.dump
+{
+    background-color: transparent;
+    width: 0;
+    height: 0;
+}

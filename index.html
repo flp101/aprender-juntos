@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculadora">
+        <img src="Captura de tela 2024-04-22 182016.png" alt="Barra do iphone" id="barra">
+        <div id="display">
+            <input id="input" readonly>
+        </div>
+        <div id="teclado">
+            <button onclick="cancel()" class="outros">C</button>
+            <button onclick="inserir('-')" class="outros">+/-</button>
+            <button onclick="inserir('')" class="outros">%</button>
+            <button onclick="inserir('/')" class="operor">÷</button>
+
+            <button onclick="inserir('7')">7</button>
+            <button onclick="inserir('8')">8</button>
+            <button onclick="inserir('9')">9</button>
+            <button onclick="inserir('*')" class="operor">X</button>
+
+            <button onclick="inserir('4')">4</button>
+            <button onclick="inserir('5')">5</button>
+            <button onclick="inserir('6')">6</button>
+            <button onclick="inserir('-')" class="operor">-</button>
+
+            <button onclick="inserir('1')">1</button>
+            <button onclick="inserir('2')">2</button>
+            <button onclick="inserir('3')">3</button>
+            <button onclick="inserir('+')" class="operor">+</button>
+
+            
+            <button onclick="inserir('0')" class="zero">0</button>
+            <button class="dump"></button>
+            <button onclick="inserir('.')">,</button>
+            
+            <button onclick="calcular()" class="operor">=</button>
+        </div>
+    </div>    
+
+    <script src="index.js"></script>
+</body>
+</html>
